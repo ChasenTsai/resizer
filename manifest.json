@@ -1,0 +1,18 @@
+{
+   "manifest_version": 3,
+   "name": "Resizer",
+   "version": "0.0.1",
+   "description": "Very simple window resizing tool, set your usual resolution and you can quickly resize the window in any tab!",
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "icons": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+   },
+   "options_ui": {
+      "page": "options.html"
+   }
+}

@@ -1,0 +1,48 @@
+body {
+    font-size: 1rem;
+    line-height: 1.2;
+    min-width: 10rem;
+}
+
+label {
+    display: block;
+    padding: 6px 4px;
+}
+
+.current {
+    text-align: right;
+}
+
+.grey {
+    color: #999999;
+}
+
+.option {
+    border-bottom: 1px solid #d6d6d6;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.option:hover {
+    background-color: #d6d6d6;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+}
+
+input[type=button] {
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+#success {
+    display: none;
+    color: #be3e3e;
+}
